@@ -15,6 +15,7 @@
 		1BE98A121DB50FA90065A8D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BE98A101DB50FA90065A8D3 /* LaunchScreen.storyboard */; };
 		1BE98A1D1DB50FA90065A8D3 /* CallingITunesAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE98A1C1DB50FA90065A8D3 /* CallingITunesAPITests.swift */; };
 		1BE98A281DB50FA90065A8D3 /* CallingITunesAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE98A271DB50FA90065A8D3 /* CallingITunesAPIUITests.swift */; };
+		1BE98A381DB510120065A8D3 /* ITunesAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE98A371DB510120065A8D3 /* ITunesAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1BE98A231DB50FA90065A8D3 /* CallingITunesAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallingITunesAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BE98A271DB50FA90065A8D3 /* CallingITunesAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingITunesAPIUITests.swift; sourceTree = "<group>"; };
 		1BE98A291DB50FA90065A8D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BE98A371DB510120065A8D3 /* ITunesAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ITunesAPIClient.swift; path = ../ITunesAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				1BE98A041DB50FA90065A8D3 /* AppDelegate.swift */,
 				1BE98A061DB50FA90065A8D3 /* ViewController.swift */,
+				1BE98A371DB510120065A8D3 /* ITunesAPIClient.swift */,
 				1BE98A081DB50FA90065A8D3 /* Main.storyboard */,
 				1BE98A0E1DB50FA90065A8D3 /* Assets.xcassets */,
 				1BE98A101DB50FA90065A8D3 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BE98A0D1DB50FA90065A8D3 /* CallingITunesAPI.xcdatamodeld in Sources */,
+				1BE98A381DB510120065A8D3 /* ITunesAPIClient.swift in Sources */,
 				1BE98A071DB50FA90065A8D3 /* ViewController.swift in Sources */,
 				1BE98A051DB50FA90065A8D3 /* AppDelegate.swift in Sources */,
 			);
@@ -486,6 +490,7 @@
 				1BE98A2E1DB50FA90065A8D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BE98A2F1DB50FA90065A8D3 /* Build configuration list for PBXNativeTarget "CallingITunesAPITests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +499,7 @@
 				1BE98A311DB50FA90065A8D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BE98A321DB50FA90065A8D3 /* Build configuration list for PBXNativeTarget "CallingITunesAPIUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +508,7 @@
 				1BE98A341DB50FA90065A8D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

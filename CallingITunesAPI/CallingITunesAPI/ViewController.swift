@@ -13,6 +13,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        ITunesAPIClient.gettingArtistInformationFromITunesAPI("incubus") { (incubusDictionary) in
+    
+            print("***********************************")
+            print(incubusDictionary)
+            print("***********************************")
+
+        }
     }
 
     override func didReceiveMemoryWarning() {
